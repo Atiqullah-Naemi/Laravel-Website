@@ -21,11 +21,11 @@ class PagesController extends Controller
 
     public function getAbout()
     {
-    	return 'About';
+    	return view('pages.about');
     }
 
     public function getContact()
     {
-    	return 'Contact';
+    	return view('pages.contact');
     }
 }

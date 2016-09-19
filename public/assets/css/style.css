@@ -1,0 +1,241 @@
+body
+{
+	min-height: 720px;
+	font-family: "Times New Roman", sans-serfi;
+	font-size: 16px;
+}
+
+.navbar-default, .btn-primary, .dropdown, .dropdown-menu
+{
+	background: #0D7B87 !important;
+	color: #fff;
+	z-index: 9999;
+}
+.btn-primary:hover
+{
+	background: #000 !important;
+	color: #FF0000 !important;
+}
+#searchform
+{
+	position: relative;
+
+}
+.fa-search
+{
+	font-size: 30px;
+	color: #0D7B87 !important;
+}
+#myInput
+{
+	padding-left: 40px;
+}
+ul.navbar-nav li a, a.navbar-brand
+{
+	color: #fff !important;
+}
+ul.navbar-nav li a:hover
+{
+	background: #000 !important;
+	color: #FF0000 !important;
+}
+ul.navbar-nav li.active a 
+{
+	background: #000 !important;
+	color: #FF0000 !important;
+}
+.top-spacing
+{
+	margin-top: 20px;
+}
+.small-spacing
+{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+.publish
+{
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+.main-content
+{
+	margin-top: 60px;
+}
+.meta
+{
+	font-weight: bold;
+	font-style: italic;
+	color: #777474;
+	padding-left: 2px;
+}
+.label-default
+{
+	margin: 0 2px;
+	padding: 5px 5px;
+}
+
+/* Widget Section */
+.menu h3
+{
+	background-color: #ccc;
+	padding: 6px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/* User Profile Section */
+.profile-update
+{
+	float: left;
+	border-radius: 50%;
+}
+.profile-info
+{
+	margin-top: 60px;
+	margin-left: 220px;
+}
+.profile-form
+{
+	margin-left: 220px;
+}
+.profile-small
+{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+
+/* Comment Section */
+.comment
+{
+	margin-bottom: 30px;
+}
+.author-image
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+.author-name
+{
+	float: left;
+	margin-left: 15px;
+}
+.author-name h4
+{
+	margin: 5px 0px;
+}
+.comment-content
+{
+	clear: both;
+	margin-left: 65px;
+	font-size: 16px;
+}
+.comments-title
+{
+	margin-bottom: 30px;
+}
+.fa-stack[data-count]:after{
+  position:absolute;
+  right:0%;
+  top:1%;
+  content: attr(data-count);
+  font-size:30%;
+  padding:.6em;
+  border-radius:999px;
+  line-height:.75em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width:2em;
+  font-weight:bold;
+}
+
+/* Background Video Section */
+div.jumbotron
+{
+	text-align: center;
+}
+.jumbotron
+{
+	margin-top: 60px;
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+}
+#background-wrap
+{
+	min-width: 100% !important;
+	min-height: auto;
+	width: 100% !important;
+	height: auto;
+	position: absolute;
+	overflow: hidden;
+	background-position: 0% 0%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+	top: 30px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+#video-background
+{
+	position: absolute;
+	min-width: 100% !important;
+	min-height: auto !important;
+	width: 100% !important;
+	height: auto !important;
+	margin: auto;
+	top: 0px;
+	left: 0px;
+	bottom: 0px !important;
+	right: 0px;
+}
+#content
+{
+	padding-top: 210px;
+	width: 100% !important;
+	height: auto;
+	position: absolute;
+	z-index: 1999;
+	margin: auto;
+	top: 0px;
+	left: 0px;
+	bottom: -56px !important;
+	right: 0px;
+	background-color: rgba(0, 0, 190, 0.2);
+	background-size: cover;
+	color: #fff;
+}
+
+.posts
+{
+	margin-top: 70px !important;
+}
+
+/* Footer Section */
+.footer-content
+{
+	height: 120px;
+	margin-top: 60px;
+	background-color: #000;
+}
+.copyright
+{
+	margin-top: 80px;
+	color: #ccc;
+}
+
+/* Resource Validation Section */
+#titleerror, #slugerror
+{
+	font-size: 16px;
+	color: #FF0000;
+}
+

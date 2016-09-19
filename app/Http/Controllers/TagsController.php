@@ -15,7 +15,7 @@ class TagsController extends Controller
     /* Use Auth middleware for this controller */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware("auth");
     }
     
     /**

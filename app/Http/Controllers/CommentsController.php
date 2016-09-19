@@ -62,7 +62,7 @@ class CommentsController extends Controller
 
         Session::flash('success', 'One Comment added successfully!');
 
-        return redirect()->route('blog.single', [$post->slug]);
+        return redirect()->route("blog.single", [$post->slug]);
     }
 
     /**
